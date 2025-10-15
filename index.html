@@ -1,560 +1,1183 @@
-	<!DOCTYPE html>
-	<html lang="zxx" class="no-js">
-	<head>
-		<!-- Mobile Specific Meta -->
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<!-- Favicon-->
-		<link rel="shortcut icon" href="img/fav.png">
-		<!-- Author Meta -->
-		<meta name="author" content="codepixer">
-		<!-- Meta Description -->
-		<meta name="description" content="">
-		<!-- Meta Keyword -->
-		<meta name="keywords" content="">
-		<!-- meta character set -->
-		<meta charset="UTF-8">
-		<!-- Site Title -->
-		<title>Watch</title>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JK Construções - Kilson | Pedreiro em Motuca e Região</title>
+    <meta name="description" content="JK Construções - Kilson: Pedreiro especializado em Motuca, Matao e região. Acabamento impecável e pontualidade garantida. Solicite orçamento!">
+    <style>
+        /* Reset e configurações gerais */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
 
-		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
-			<!--
-			CSS
-			============================================= -->
-			<link rel="stylesheet" href="css/linearicons.css">
-			<link rel="stylesheet" href="css/font-awesome.min.css">
-			<link rel="stylesheet" href="css/bootstrap.css">
-			<link rel="stylesheet" href="css/magnific-popup.css">
-			<link rel="stylesheet" href="css/nice-select.css">					
-			<link rel="stylesheet" href="css/animate.min.css">
-			<link rel="stylesheet" href="css/owl.carousel.css">
-			<link rel="stylesheet" href="css/main.css">
-		</head>
-		<body>
+        :root {
+            --primary: #2c3e50; /* Azul Marinho */
+            --secondary: #7f8c8d; /* Cinza Concreto */
+            --accent: #e67e22; /* Laranja Queimado */
+            --light: #ecf0f1;
+            --dark: #2c3e50;
+            --success: #27ae60;
+            --text: #333;
+        }
 
-			  <header id="header" id="home">
-			    <div class="container">
-			    	<div class="row align-items-center justify-content-between d-flex">
-				      <div id="logo">
-				        <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
-				      </div>
-				      <nav id="nav-menu-container">
-				        <ul class="nav-menu">
-				          <li class="menu-active"><a href="#home">Home</a></li>
-				          <li><a href="#about">About</a></li>
-				          <li><a href="#service">Service</a></li>
-				          <li><a href="#unique">Unique Feature</a></li>
-				          <li><a href="#review">Review</a></li>
-				          <li><a href="#faq">Faq</a></li>
-				          <li class="menu-has-children"><a href="">Pages</a>
-				            <ul>
-				              <li><a href="generic.html">Generic</a></li>
-				              <li><a href="elements.html">Elements</a></li>
-				            </ul>
-				          </li>
-				        </ul>
-				      </nav><!-- #nav-menu-container -->		    		
-			    	</div>
-			    </div>
-			  </header><!-- #header -->
+        html {
+            scroll-behavior: smooth;
+        }
 
+        body {
+            background-color: #f9f9f9;
+            color: var(--text);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
 
-			<!-- start banner Area -->
-			<section class="banner-area" id="home">	
-				<div class="container">
-					<div class="row fullscreen d-flex align-items-center justify-content-center">
-						<div class="banner-content col-lg-10">
-							<h5 class="text-white text-uppercase">Now you can feel the Heat</h5>
-							<h1>
-								Smart New Future				
-							</h1>
-							<a href="#" class="primary-btn text-uppercase">Buy Now</a>
-						</div>											
-					</div>
-				</div>
-			</section>
-			<!-- End banner Area -->	
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
 
-			<!-- Start video-sec Area -->
-			<section class="video-sec-area section-gap" id="about">
-				<div class="container">
-					<div class="row justify-content-center align-items-center ">
-						<div class="col-lg-6 video-left">
-							<h6>Brand new app to blow your mind</h6>
-							<h1>We’ve made a life <br>
-							that will change you</h1>
-							<p><span>We are here to listen from you deliver exellence</span></p>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
-							</p>
-							<a class="primary-btn" href="#">Get Started now</a>
-						</div>
-						<div class="col-lg-6 video-right justify-content-center align-items-center d-flex">
-							<div class="overlay overlay-bg"></div>
-							<a class="play-btn" href="https://www.youtube.com/watch?v=ARA0AxrnHdM"><img class="img-fluid" src="img/play-icon.png" alt=""></a>
-						</div>
-					</div>
-				</div>	
-			</section>
-			<!-- End video-sec Area -->
-			
-			<!-- Start top-course Area -->
-			<section class="top-course-area section-gap">
-				<div class="container">
-					<div class="row d-flex justify-content-center">
-						<div class="menu-content pb-60 col-lg-10">
-							<div class="title text-center">
-								<h1 class="mb-10">Top Courses That are open for Students</h1>
-								<p>Who are in extremely love with eco friendly system.</p>
-							</div>
-						</div>
-					</div>					
-					<div class="row justify-content-center align-items-center">
-						<div class="col-lg-3 course-left">
-							<div class="single-course">
-								<span class="lnr lnr-rocket"></span>
-								<a href="#"><h4>High Performance</h4></a>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipisic ing elit, seddo eiusmod tempor incid.idunt ut labore et dolore magna aliqua.
-								</p>
-							</div>
-							<div class="single-course">
-								<span class="lnr lnr-cog"></span>
-								<a href="#"><h4>High Performance</h4></a>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipisic ing elit, seddo eiusmod tempor incid.idunt ut labore et dolore magna aliqua.
-								</p>
-							</div>							
-						</div>
-						<div class="col-lg-6 course-middle">
-							<img class="img-fluid mx-auto d-block" src="img/c1.png" alt="">
-						</div>
-						<div class="col-lg-3 course-right">
-							<div class="single-course">
-								<span class="lnr lnr-apartment"></span>
-								<a href="#"><h4>High Performance</h4></a>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipisic ing elit, seddo eiusmod tempor incid.idunt ut labore et dolore magna aliqua.
-								</p>
-							</div>
-							<div class="single-course">
-								<span class="lnr lnr-phone"></span>
-								<a href="#"><h4>High Performance</h4></a>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipisic ing elit, seddo eiusmod tempor incid.idunt ut labore et dolore magna aliqua.
-								</p>
-							</div>														
-						</div>
-					</div>
-				</div>	
-			</section>
-			<!-- End top-course Area -->
-			
-			<!-- Start home-about Area -->
-			<section class="home-about-area">
-				<div class="container-fluid">				
-					<div class="row justify-content-center align-items-center">
-						<div class="col-lg-6 no-padding home-about-left">
-							<img class="img-fluid" src="img/about-img.jpg" alt="">
-						</div>
-						<div class="col-lg-6 no-padding home-about-right">
-							<h1>Globally Connected <br>
-							by Large Network</h1>
-							<p>
-								<span>We are here to listen from you deliver exellence</span>
-							</p>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-								Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.
-							</p>
-							<a class="text-uppercase primary-btn" href="#">get details</a>
-						</div>
-					</div>
-				</div>	
-			</section>
-			<!-- End home-about Area -->			
+        section {
+            padding: 80px 0;
+        }
 
-			<!-- Start service Area -->
-			<section class="service-area section-gap" id="service">
-				<div class="container">
-					<div class="row d-flex justify-content-center">
-						<div class="col-md-8 pb-40 header-text">
-							<h1>Some Features that Made us Unique</h1>
-							<p>
-								Who are in extremely love with eco friendly system.
-							</p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-4 col-md-6">
-							<div class="single-service">
-								<h4><span class="lnr lnr-user"></span>Expert Technicians</h4>
-								<p>
-									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
-								</p>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="single-service">
-								<h4><span class="lnr lnr-license"></span>Professional Service</h4>
-								<p>
-									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
-								</p>								
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="single-service">
-								<h4><span class="lnr lnr-phone"></span>Great Support</h4>
-								<p>
-									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
-								</p>								
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="single-service">
-								<h4><span class="lnr lnr-rocket"></span>Technical Skills</h4>
-								<p>
-									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
-								</p>				
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="single-service">
-								<h4><span class="lnr lnr-diamond"></span>Highly Recomended</h4>
-								<p>
-									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
-								</p>								
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="single-service">
-								<h4><span class="lnr lnr-bubble"></span>Positive Reviews</h4>
-								<p>
-									Usage of the Internet is becoming more common due to rapid advancement of technology and power.
-								</p>									
-							</div>
-						</div>						
-					</div>
-				</div>	
-			</section>
-			<!-- End service Area -->	
+        h1, h2, h3, h4 {
+            margin-bottom: 20px;
+            color: var(--dark);
+        }
 
-			<!-- Start unique-feature Area -->
-			<section class="unique-feature-area section-gap" id="unique">
-				<div class="container">
-					<div class="row d-flex justify-content-center">
-						<div class="menu-content pb-60 col-lg-10">
-							<div class="title text-center">
-								<h1 class="mb-10 text-white">Some Features that Made us Unique</h1>
-								<p>Who are in extremely love with eco friendly system.</p>
-							</div>
-						</div>
-					</div>						
-					<div class="row">
-						<div class="col-lg-3 col-md-6">
-							<div class="single-unique-product">
-								<img class="img-fluid" src="img/u1.jpg" alt="">
-								<div class="desc">
-									<h4>
-										Apple Watch White
-									</h4>
-									<h6>£399.00</h6>
-									<a class="text-uppercase primary-btn" href="#">Pre Order</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="single-unique-product">
-								<img class="img-fluid" src="img/u2.jpg" alt="">
-								<div class="desc">
-									<h4>
-										Apple Watch White
-									</h4>
-									<h6>£399.00</h6>
-									<a class="text-uppercase primary-btn" href="#">Pre Order</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="single-unique-product">
-								<img class="img-fluid" src="img/u3.jpg" alt="">
-								<div class="desc">
-									<h4>
-										Apple Watch White
-									</h4>
-									<h6>£399.00</h6>
-									<a class="text-uppercase primary-btn" href="#">Pre Order</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="single-unique-product">
-								<img class="img-fluid" src="img/u4.jpg" alt="">
-								<div class="desc">
-									<h4>
-										Apple Watch White
-									</h4>
-									<h6>£399.00</h6>
-									<a class="text-uppercase primary-btn" href="#">Pre Order</a>
-								</div>
-							</div>
-						</div>																		
-					</div>
-				</div>	
-			</section>
-			<!-- End unique-feature Area -->
-		
-			<!-- Start review Area -->
-			<section class="review-area section-gap" id="review">
-				<div class="container">
-					<div class="row d-flex justify-content-center">
-						<div class="menu-content pb-60 col-lg-10">
-							<div class="title text-center">
-								<h1 class="mb-10">Some Features that Made us Unique</h1>
-								<p>Who are in extremely love with eco friendly system.</p>
-							</div>
-						</div>
-					</div>						
-					<div class="row">
-						<div class="col-lg-4 col-md-6">
-							<div class="single-review">
-								<h4>Cody Hines</h4>
-								<p>
-									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
-								</p>
-								<div class="star">
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star"></span>
-									<span class="fa fa-star"></span>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="single-review">
-								<h4>Chad Herrera</h4>
-								<p>
-									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
-								</p>
-								<div class="star">
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star"></span>
-									<span class="fa fa-star"></span>
-									<span class="fa fa-star"></span>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="single-review">
-								<h4>Andre Gonzalez</h4>
-								<p>
-									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
-								</p>
-								<div class="star">
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star"></span>
-									<span class="fa fa-star"></span>
-									<span class="fa fa-star"></span>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="single-review">
-								<h4>Jon Banks</h4>
-								<p>
-									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
-								</p>
-								<div class="star">
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star"></span>
-									<span class="fa fa-star"></span>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="single-review">
-								<h4>Landon Houston</h4>
-								<p>
-									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
-								</p>
-								<div class="star">
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star"></span>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="single-review">
-								<h4>Nelle Wade</h4>
-								<p>
-									Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker.
-								</p>
-								<div class="star">
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star checked"></span>
-									<span class="fa fa-star"></span>
-								</div>
-							</div>
-						</div>																
-					</div>
-				</div>	
-			</section>
-			<!-- End review Area -->
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
 
-			<!-- Start faq Area -->
-			<section class="faq-area section-gap" id="faq">
-				<div class="container">
-					<div class="row d-flex justify-content-center">
-						<div class="menu-content pb-60 col-lg-10">
-							<div class="title text-center">
-								<h1 class="mb-10">Frequently Asked Questions</h1>
-								<p>Who are in extremely love with eco friendly system.</p>
-							</div>
-						</div>
-					</div>						
-					<div class="row justify-content-start">
-						<div class="col-lg-6 faq-left">
-							<div id="accordion">
-							  <div class="card">
-							    <div class="card-header" id="headingOne">
-							      <h5 class="mb-0">
-							        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-							          Are your Templates responsive?
-							        </button>
-							      </h5>
-							    </div>
+        h2 {
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 50px;
+            position: relative;
+        }
 
-							    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-							      <div class="card-body">
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-							      </div>
-							    </div>
-							  </div>
-							  <div class="card">
-							    <div class="card-header" id="headingTwo">
-							      <h5 class="mb-0">
-							        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-							          Does it have all the plugin as mentioned?
-							        </button>
-							      </h5>
-							    </div>
-							    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-							      <div class="card-body">
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-							      </div>
-							    </div>
-							  </div>
-							  <div class="card">
-							    <div class="card-header" id="headingThree">
-							      <h5 class="mb-0">
-							        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-							          Can i use the these theme for my client?
-							        </button>
-							      </h5>
-							    </div>
-							    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-							      <div class="card-body">
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-							      </div>
-							    </div>
-							  </div>
-							  <div class="card">
-							    <div class="card-header" id="headingThree">
-							      <h5 class="mb-0">
-							        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
-							          Are your Templates responsive?
-							        </button>
-							      </h5>
-							    </div>
-							    <div id="collapseFour" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-							      <div class="card-body">
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-							      </div>
-							    </div>
-							  </div>							  
-							</div>							
-						</div>	
-					</div>
-				</div>	
-			</section>
-			<!-- End faq Area -->
-			<!-- start footer Area -->		
-			<footer class="footer-area section-gap">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-5 col-md-6 col-sm-6">
-							<div class="single-footer-widget">
-								<h6>About Us</h6>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.
-								</p>
-								<p class="footer-text">
-									<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-								</p>								
-							</div>
-						</div>
-						<div class="col-lg-5  col-md-6 col-sm-6">
-							<div class="single-footer-widget">
-								<h6>Newsletter</h6>
-								<p>Stay update with our latest</p>
-								<div class="" id="mc_embed_signup">
-									<form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="form-inline">
-										<input class="form-control" name="EMAIL" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email">
-			                            	<button class="click-btn btn btn-default"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
-			                            	<div style="position: absolute; left: -5000px;">
-												<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
-											</div>
+        h2:after {
+            content: '';
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background-color: var(--accent);
+        }
 
-										<div class="info"></div>
-									</form>
-								</div>
-							</div>
-						</div>						
-						<div class="col-lg-2 col-md-6 col-sm-6 social-widget">
-							<div class="single-footer-widget">
-								<h6>Follow Us</h6>
-								<p>Let us be social</p>
-								<div class="footer-social d-flex align-items-center">
-									<a href="#"><i class="fa fa-facebook"></i></a>
-									<a href="#"><i class="fa fa-twitter"></i></a>
-									<a href="#"><i class="fa fa-dribbble"></i></a>
-									<a href="#"><i class="fa fa-behance"></i></a>
-								</div>
-							</div>
-						</div>							
-					</div>
-				</div>
-			</footer>	
-			<!-- End footer Area -->	
+        p {
+            margin-bottom: 15px;
+        }
 
-			<script src="js/vendor/jquery-2.2.4.min.js"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-			<script src="js/vendor/bootstrap.min.js"></script>			
-			<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
-  			<script src="js/easing.min.js"></script>			
-			<script src="js/hoverIntent.js"></script>
-			<script src="js/superfish.min.js"></script>	
-			<script src="js/jquery.ajaxchimp.min.js"></script>
-			<script src="js/jquery.magnific-popup.min.js"></script>	
-			<script src="js/owl.carousel.min.js"></script>			
-			<script src="js/jquery.sticky.js"></script>
-			<script src="js/jquery.nice-select.min.js"></script>			
-			<script src="js/parallax.min.js"></script>	
-			<script src="js/mail-script.js"></script>	
-			<script src="js/main.js"></script>	
-		</body>
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: var(--accent);
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .btn:hover {
+            background-color: #d35400;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-large {
+            padding: 15px 40px;
+            font-size: 1.1rem;
+        }
+
+        .btn-whatsapp {
+            background-color: #25D366;
+        }
+
+        .btn-whatsapp:hover {
+            background-color: #128C7E;
+        }
+
+        /* Header e Navegação */
+        header {
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .logo span {
+            color: var(--accent);
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin-left: 30px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: var(--dark);
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: var(--accent);
+        }
+
+        .mobile-menu {
+            display: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(44, 62, 80, 0.8)), url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 180px 0 100px;
+            margin-top: 70px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto 30px;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            background-color: var(--accent);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 30px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        /* Antes e Depois */
+        .antes-depois {
+            background-color: var(--light);
+        }
+
+        .galeria-container {
+            position: relative;
+            max-width: 800px;
+            margin: 0 auto;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .galeria-slide {
+            display: none;
+            position: relative;
+        }
+
+        .galeria-slide.active {
+            display: block;
+        }
+
+        .galeria-slide img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .slide-info {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 15px;
+        }
+
+        .galeria-miniaturas {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            gap: 10px;
+        }
+
+        .miniatura {
+            width: 80px;
+            height: 60px;
+            border-radius: 4px;
+            overflow: hidden;
+            cursor: pointer;
+            opacity: 0.7;
+            transition: opacity 0.3s;
+        }
+
+        .miniatura.active, .miniatura:hover {
+            opacity: 1;
+        }
+
+        .miniatura img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Diferencial */
+        .diferencial {
+            text-align: center;
+        }
+
+        .diferencial-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .diferencial-icon {
+            font-size: 3rem;
+            color: var(--accent);
+            margin-bottom: 20px;
+        }
+
+        /* Depoimentos */
+        .depoimentos {
+            background-color: var(--light);
+        }
+
+        .depoimentos-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .depoimento-card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            position: relative;
+        }
+
+        .depoimento-card:before {
+            content: """;
+            font-size: 4rem;
+            color: var(--accent);
+            opacity: 0.2;
+            position: absolute;
+            top: 10px;
+            left: 20px;
+        }
+
+        .depoimento-text {
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+
+        .depoimento-author {
+            display: flex;
+            align-items: center;
+        }
+
+        .author-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: var(--secondary);
+            margin-right: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+        }
+
+        /* Serviços */
+        .servicos-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .servico-card {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+        }
+
+        .servico-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .servico-img {
+            height: 200px;
+            overflow: hidden;
+        }
+
+        .servico-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .servico-card:hover .servico-img img {
+            transform: scale(1.1);
+        }
+
+        .servico-info {
+            padding: 25px;
+        }
+
+        .servico-info h3 {
+            color: var(--accent);
+            margin-bottom: 15px;
+        }
+
+        /* Portfólio */
+        .portfolio-filters {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 40px;
+        }
+
+        .filter-btn {
+            padding: 8px 20px;
+            background-color: white;
+            border: 1px solid var(--secondary);
+            border-radius: 30px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .filter-btn.active, .filter-btn:hover {
+            background-color: var(--accent);
+            color: white;
+            border-color: var(--accent);
+        }
+
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .portfolio-item {
+            position: relative;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            height: 250px;
+        }
+
+        .portfolio-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .portfolio-item:hover img {
+            transform: scale(1.1);
+        }
+
+        .portfolio-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(230, 126, 34, 0.9);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .portfolio-item:hover .portfolio-overlay {
+            opacity: 1;
+        }
+
+        .portfolio-overlay h3 {
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        /* Sobre */
+        .sobre-content {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+
+        .sobre-img {
+            flex: 1;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .sobre-img img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .sobre-text {
+            flex: 1;
+        }
+
+        .sobre-text h3 {
+            color: var(--accent);
+            margin-bottom: 15px;
+        }
+
+        .exp-years {
+            display: inline-block;
+            background-color: var(--accent);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 4px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        /* Contato */
+        .contato-content {
+            display: flex;
+            gap: 50px;
+        }
+
+        .contato-info {
+            flex: 1;
+        }
+
+        .contato-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 25px;
+        }
+
+        .contato-icon {
+            width: 50px;
+            height: 50px;
+            background-color: var(--accent);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+
+        .contato-text h3 {
+            margin-bottom: 5px;
+            color: var(--dark);
+        }
+
+        .contato-form {
+            flex: 1;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+
+        textarea.form-control {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        /* Mapa */
+        .mapa {
+            background-color: var(--light);
+            padding: 40px 0;
+        }
+
+        .mapa-container {
+            max-width: 800px;
+            margin: 0 auto;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .mapa-placeholder {
+            background-color: var(--secondary);
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.2rem;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--dark);
+            color: white;
+            padding: 50px 0 20px;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .footer-col {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        .footer-col h3 {
+            color: white;
+            margin-bottom: 20px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+
+        .footer-col h3:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 50px;
+            height: 3px;
+            background-color: var(--accent);
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+
+        .footer-links a {
+            color: #bbb;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-links a:hover {
+            color: var(--accent);
+        }
+
+        .copyright {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            font-size: 0.9rem;
+            color: #bbb;
+        }
+
+        /* WhatsApp Float */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 60px;
+            height: 60px;
+            background-color: #25D366;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.8rem;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            background-color: #128C7E;
+        }
+
+        /* Responsividade */
+        @media (max-width: 992px) {
+            .sobre-content, .contato-content {
+                flex-direction: column;
+            }
+            
+            .sobre-img, .sobre-text, .contato-info, .contato-form {
+                width: 100%;
+            }
+            
+            h1 {
+                font-size: 2.2rem;
+            }
+            
+            h2 {
+                font-size: 1.8rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            nav ul {
+                display: none;
+                position: absolute;
+                top: 70px;
+                left: 0;
+                width: 100%;
+                background-color: white;
+                flex-direction: column;
+                padding: 20px;
+                box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+            }
+            
+            nav ul.show {
+                display: flex;
+            }
+            
+            nav ul li {
+                margin: 10px 0;
+            }
+            
+            .mobile-menu {
+                display: block;
+            }
+            
+            .hero {
+                padding: 150px 0 80px;
+            }
+            
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+            
+            .hero p {
+                font-size: 1rem;
+            }
+            
+            section {
+                padding: 60px 0;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .hero h1 {
+                font-size: 1.6rem;
+            }
+            
+            .btn-large {
+                padding: 12px 25px;
+                font-size: 1rem;
+            }
+            
+            .servicos-grid, .portfolio-grid, .depoimentos-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">JK <span>Construções</span></div>
+            <div class="mobile-menu">☰</div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="container">
+            <div class="hero-badge">Pedreiro em Motuca e Região</div>
+            <h1>JK Construções - Kilson</h1>
+            <p>Acabamento impecável e pontualidade garantida. Mais de 15 anos transformando sonhos em realidade com qualidade e compromisso.</p>
+            <a href="#contato" class="btn btn-large">Solicitar Orçamento</a>
+            <a href="https://wa.me/5516999999999?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento" class="btn btn-large btn-whatsapp" style="margin-left: 15px;">Orçamento via WhatsApp</a>
+        </div>
+    </section>
+
+    <!-- Antes e Depois -->
+    <section class="antes-depois">
+        <div class="container">
+            <h2>Antes e Depois</h2>
+            <div class="galeria-container">
+                <div class="galeria-slide active">
+                    <img src="https://images.unsplash.com/photo-1541976590-713941681591?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Reforma de Cozinha">
+                    <div class="slide-info">
+                        <h3>Reforma Completa de Cozinha</h3>
+                        <p>Transformação completa com novos revestimentos e instalações</p>
+                    </div>
+                </div>
+                <div class="galeria-slide">
+                    <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Revestimento de Paredes">
+                    <div class="slide-info">
+                        <h3>Revestimento de Paredes</h3>
+                        <p>Aplicação de cerâmica com acabamento perfeito</p>
+                    </div>
+                </div>
+                <div class="galeria-slide">
+                    <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Construção de Muro">
+                    <div class="slide-info">
+                        <h3>Construção de Muro</h3>
+                        <p>Alvenaria estrutural com acabamento impecável</p>
+                    </div>
+                </div>
+            </div>
+            <div class="galeria-miniaturas">
+                <div class="miniatura active">
+                    <img src="https://images.unsplash.com/photo-1541976590-713941681591?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Reforma de Cozinha">
+                </div>
+                <div class="miniatura">
+                    <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Revestimento de Paredes">
+                </div>
+                <div class="miniatura">
+                    <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Construção de Muro">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diferencial Principal -->
+    <section class="diferencial">
+        <div class="container">
+            <div class="diferencial-content">
+                <div class="diferencial-icon">✓</div>
+                <h2>Acabamento Impecável e Pontualidade</h2>
+                <p>Nosso compromisso é entregar trabalhos com a mais alta qualidade de acabamento, respeitando sempre os prazos combinados. Cada projeto é tratado com atenção aos detalhes e dedicação para superar as expectativas dos nossos clientes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="depoimentos">
+        <div class="container">
+            <h2>O Que Nossos Clientes Dizem</h2>
+            <div class="depoimentos-grid">
+                <div class="depoimento-card">
+                    <div class="depoimento-text">
+                        "Contratei o Kilson para reformar minha cozinha e fiquei impressionado com a qualidade do trabalho. O acabamento é impecável e ele cumpriu todos os prazos combinados. Super recomendo!"
+                    </div>
+                    <div class="depoimento-author">
+                        <div class="author-avatar">M</div>
+                        <div>
+                            <h4>Maria Silva</h4>
+                            <p>Motuca - SP</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="depoimento-card">
+                    <div class="depoimento-text">
+                        "Excelente profissional! Fiz um muro na minha casa e o trabalho ficou perfeito. Preço justo e muito comprometimento. Sem dúvida vou contratar novamente para outros serviços."
+                    </div>
+                    <div class="depoimento-author">
+                        <div class="author-avatar">J</div>
+                        <div>
+                            <h4>José Santos</h4>
+                            <p>Matão - SP</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="depoimento-card">
+                    <div class="depoimento-text">
+                        "Trabalho de alta qualidade! Reformei meu banheiro e ficou exatamente como eu queria. O Kilson é muito atencioso e solucionou todas as minhas dúvidas durante a obra."
+                    </div>
+                    <div class="depoimento-author">
+                        <div class="author-avatar">A</div>
+                        <div>
+                            <h4>Ana Oliveira</h4>
+                            <p>Motuca - SP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <div class="servicos-grid">
+                <div class="servico-card">
+                    <div class="servico-img">
+                        <img src="https://images.unsplash.com/photo-1541976590-713941681591?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Alvenaria">
+                    </div>
+                    <div class="servico-info">
+                        <h3>Alvenaria</h3>
+                        <p>Construção de paredes, muros e estruturas em geral com materiais de alta qualidade e técnicas precisas.</p>
+                        <a href="#contato" class="btn">Solicitar Orçamento</a>
+                    </div>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-img">
+                        <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Revestimentos">
+                    </div>
+                    <div class="servico-info">
+                        <h3>Revestimentos</h3>
+                        <p>Aplicação de cerâmicas, porcelanatos, pastilhas e pedras naturais com perfeito acabamento.</p>
+                        <a href="#contato" class="btn">Solicitar Orçamento</a>
+                    </div>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-img">
+                        <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Reformas">
+                    </div>
+                    <div class="servico-info">
+                        <h3>Reformas</h3>
+                        <p>Reformas completas ou parciais de banheiros, cozinhas, áreas externas e outros ambientes.</p>
+                        <a href="#contato" class="btn">Solicitar Orçamento</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfólio -->
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfólio</h2>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="todos">Todos</button>
+                <button class="filter-btn" data-filter="reformas">Reformas</button>
+                <button class="filter-btn" data-filter="alvenaria">Alvenaria</button>
+                <button class="filter-btn" data-filter="revestimentos">Revestimentos</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="reformas">
+                    <img src="https://images.unsplash.com/photo-1541976590-713941681591?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Reforma de Cozinha">
+                    <div class="portfolio-overlay">
+                        <h3>Reforma de Cozinha</h3>
+                        <p>Transformação completa com novos revestimentos e instalações</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="revestimentos">
+                    <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Revestimento de Paredes">
+                    <div class="portfolio-overlay">
+                        <h3>Revestimento de Paredes</h3>
+                        <p>Aplicação de cerâmica com acabamento perfeito</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="alvenaria">
+                    <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Construção de Muro">
+                    <div class="portfolio-overlay">
+                        <h3>Construção de Muro</h3>
+                        <p>Alvenaria estrutural com acabamento impecável</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="reformas">
+                    <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Reforma de Banheiro">
+                    <div class="portfolio-overlay">
+                        <h3>Reforma de Banheiro</h3>
+                        <p>Renovação completa com novos acabamentos</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="revestimentos">
+                    <img src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Assentamento de Piso">
+                    <div class="portfolio-overlay">
+                        <h3>Assentamento de Piso</h3>
+                        <p>Instalação de porcelanato com nivelamento perfeito</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="alvenaria">
+                    <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Construção de Parede">
+                    <div class="portfolio-overlay">
+                        <h3>Construção de Parede</h3>
+                        <p>Estruturação de divisórias internas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <div class="sobre-content">
+                <div class="sobre-img">
+                    <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Kilson - JK Construções">
+                </div>
+                <div class="sobre-text">
+                    <div class="exp-years">15+ anos de experiência</div>
+                    <h3>Kilson - Fundador da JK Construções</h3>
+                    <p>Meu nome é Kilson e sou o fundador da JK Construções. Com mais de 15 anos de experiência no mercado da construção civil, iniciei minha carreira como ajudante e, através de muito estudo e dedicação, me tornei especialista em diversos tipos de serviços de alvenaria, acabamentos e reformas.</p>
+                    <p>Ao longo dos anos, desenvolvi um método de trabalho que prioriza a qualidade, o respeito aos prazos e a transparência com o cliente. Acredito que uma boa construção não é apenas sobre erguer paredes, mas sobre construir confiança e realizar sonhos.</p>
+                    <p>Trabalho com uma equipe de confiança para serviços que exigem maior mão de obra, garantindo sempre o mesmo padrão de qualidade em todos os projetos realizados em Motuca, Matão e região.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <div class="contato-content">
+                <div class="contato-info">
+                    <div class="contato-item">
+                        <div class="contato-icon">📞</div>
+                        <div class="contato-text">
+                            <h3>Telefone</h3>
+                            <p>(16) 99999-9999</p>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <div class="contato-icon">✉️</div>
+                        <div class="contato-text">
+                            <h3>E-mail</h3>
+                            <p>contato@jkconstrucoes.com</p>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <div class="contato-icon">📍</div>
+                        <div class="contato-text">
+                            <h3>Área de Atuação</h3>
+                            <p>Motuca, Matão e região - SP</p>
+                        </div>
+                    </div>
+                    <div class="contato-item">
+                        <div class="contato-icon">🕒</div>
+                        <div class="contato-text">
+                            <h3>Horário de Atendimento</h3>
+                            <p>Segunda a Sábado: 7h às 18h</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contato-form">
+                    <form id="formOrcamento">
+                        <div class="form-group">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefone">Telefone/WhatsApp</label>
+                            <input type="tel" id="telefone" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="servico">Serviço de Interesse</label>
+                            <select id="servico" class="form-control" required>
+                                <option value="">Selecione um serviço</option>
+                                <option value="alvenaria">Alvenaria</option>
+                                <option value="revestimentos">Revestimentos</option>
+                                <option value="reformas">Reformas</option>
+                                <option value="outros">Outros</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="descricao">Descrição do Serviço</label>
+                            <textarea id="descricao" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-large">Solicitar Orçamento</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mapa -->
+    <section class="mapa">
+        <div class="container">
+            <h2>Área de Atuação</h2>
+            <div class="mapa-container">
+                <div class="mapa-placeholder">
+                    Mapa da região de Motuca, Matão e áreas atendidas
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>JK Construções</h3>
+                    <p>Serviços de pedreiro com qualidade e compromisso em Motuca, Matão e região. Acabamento impecável e pontualidade garantida.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Links Rápidos</h3>
+                    <ul class="footer-links">
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#portfolio">Portfólio</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contato</h3>
+                    <ul class="footer-links">
+                        <li>📞 (16) 99999-9999</li>
+                        <li>✉️ contato@jkconstrucoes.com</li>
+                        <li>📍 Motuca, Matão e região - SP</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 JK Construções - Kilson. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/5516999999999?text=Olá,%20gostaria%20de%20solicitar%20um%20orçamento" class="whatsapp-float" target="_blank">
+        <span>💬</span>
+    </a>
+
+    <script>
+        // Menu Mobile
+        document.querySelector('.mobile-menu').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+
+        // Galeria Antes e Depois
+        const slides = document.querySelectorAll('.galeria-slide');
+        const miniaturas = document.querySelectorAll('.miniatura');
+
+        miniaturas.forEach((miniatura, index) => {
+            miniatura.addEventListener('click', () => {
+                // Remove classe active de todos os slides e miniaturas
+                slides.forEach(slide => slide.classList.remove('active'));
+                miniaturas.forEach(min => min.classList.remove('active'));
+                
+                // Adiciona classe active ao slide e miniatura clicados
+                slides[index].classList.add('active');
+                miniatura.classList.add('active');
+            });
+        });
+
+        // Filtro do Portfólio
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove classe active de todos os botões
+                filterBtns.forEach(b => b.classList.remove('active'));
+                // Adiciona classe active ao botão clicado
+                btn.classList.add('active');
+                
+                const filter = btn.getAttribute('data-filter');
+                
+                portfolioItems.forEach(item => {
+                    if (filter === 'todos' || item.getAttribute('data-category') === filter) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Formulário de Contato
+        document.getElementById('formOrcamento').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Aqui você pode adicionar código para enviar o formulário
+            // Por enquanto, vamos apenas mostrar um alerta
+            alert('Orçamento solicitado com sucesso! Entraremos em contato em breve.');
+            this.reset();
+        });
+
+        // Rolagem suave para âncoras
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 70,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Fecha o menu mobile se estiver aberto
+                    document.querySelector('nav ul').classList.remove('show');
+                }
+            });
+        });
+    </script>
+</body>
 	</html>
-
-
-
